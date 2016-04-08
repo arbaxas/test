@@ -45,7 +45,7 @@ var sslOptions = null;
 var server = http.createServer(app);
 var secureServer = null;
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 80);
 app.set('securePort', process.env.SECURE_PORT || null);
 
 // Connect to the database

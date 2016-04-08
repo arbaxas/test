@@ -131,7 +131,7 @@ exports.statusCodePage = function (aReq, aRes, aNext, aOptions) {
 
 // Add page metadata, containing title, description and keywords.
 function pageMetadata(aOptions, aTitle, aDescription, aKeywords) {
-  var titles = ['OpenUserJS'];
+  var titles = ['ProTurkers Mturk Userscripts'];
   if (typeof (aTitle) === "string" && aTitle !== "") {
     titles.unshift(aTitle);
   } else if (_.isArray(aTitle)) {
@@ -139,18 +139,28 @@ function pageMetadata(aOptions, aTitle, aDescription, aKeywords) {
   }
   aOptions.title = titles.join(' | ');
 
-  aOptions.pageMetaDescription = 'Download userscripts to enhance your browser.';
+  aOptions.pageMetaDescription = 'Download Mturk userscripts to help increase your earnings!';
   if (typeof (aDescription) !== "undefined" && aDescription !== null) {
     aOptions.pageMetaDescription = aDescription;
   }
 
   var pageMetaKeywords = [
     'userscript',
+	'mturk',
+	'mturk userscripts',
+	'mechanical turk userscripts',
+	'productrnr',
+	'turkmaster',
+	'zing',
+	'hit scraper',
+	'turkopticon',
+	'crowd task',
+	'pi search',
     'userscripts',
     'user script',
     'user scripts',
     'user.js',
-    'repository',
+    'mturk',
     'Greasemonkey',
     'Greasemonkey Port',
     'Scriptish',

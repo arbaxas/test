@@ -24,39 +24,39 @@
               <p>You may read about most UserScript metadata blocks on the <a href="http://wiki.greasespot.net/Metadata_Block">Greasespot wiki</a> and at the <a href="https://sourceforge.net/p/greasemonkey/wiki/Metadata_Block/">Greasemonkey on SourceForge wiki</a>.</p>
             </div>
           </div>
-          <h3>OpenUserJS.org Supported</h3>
+          <h3>Supported Script Meta Tags</h3>
           <div class="list-group script-metadata-definitions">
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@description This script even does the laundry!</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@description This script even does the laundry!</span></code></h4>
               <p class="list-group-item-text">Specially formatted on the script page. Last value shown.</p>
             </div>
 
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@copyright Year, Author (Author Website)</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@copyright Year, Author (Author Website)</span></code></h4>
               <p class="list-group-item-text">Specially formatted on the script page. All values shown in reverse order.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@icon url</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@icon url</span></code></h4>
               <p class="list-group-item-text">A url or data url. Resolution should be near 48px by 48px, Used in the script list page at 16px and on the script page at ~45px. Last value is shown.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@license License Type; License Homepage</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@license License Type; License Homepage</span></code></h4>
               <p class="list-group-item-text">Specially formatted on the script page. All values shown in reverse order. If absent MIT License (Expat) is implied. See <a href="/about/Terms-of-Service#licensing">licensing terms</a> for specifics.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@homepageURL url</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@homepageURL url</span></code></h4>
               <p class="list-group-item-text">A url of http, https or mailto protocol. Specially formatted on the script page. All values shown in reverse order.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@supportURL url</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@supportURL url</span></code></h4>
               <p class="list-group-item-text">A url of http, https or mailto protocol. Specially formatted on the script page. Last value shown.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@oujs:author {{#authedUser}}{{authedUser.name}}{{/authedUser}}{{^authedUser}}username{{/authedUser}}</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@oujs:author {{#authedUser}}{{authedUser.name}}{{/authedUser}}{{^authedUser}}username{{/authedUser}}</span></code></h4>
               <p class="list-group-item-text">The author of the script. Required to enable <a href="#collaboration">Collaboration</a>. Last value shown. This key may be subject to change.</p>
             </div>
             <div class="list-group-item">
-              <h4 class="list-group-item-heading"><code>@oujs:collaborator username</code></h4>
+              <h4 class="list-group-item-heading"><code><span style="font-size:12px;">@oujs:collaborator username</span></code></h4>
               <p class="list-group-item-text">May be defined multiple times. Required for <a href="#collaboration">Collaboration</a>. All values shown in reverse order. This key may be subject to change.</p>
             </div>
           </div>
@@ -73,8 +73,8 @@
           <h2><i class="fa fa-question"></i> Library Docs</h2>
           <div class="panel panel-default">
             <div class="panel-body">
-              <h3>OpenUserJS.org Supported</h3>
-              <p>Any UserScript on OpenUserJS.org that <code>//@require</code>'s libraries from OpenUserJS.org will link to the library on the UserScript page.</p>
+              <h3>Proturkers Supported</h3>
+              <p>Any UserScript on Proturkers Database that <code>//@require</code>'s libraries from our database will link to the library on the UserScript page.</p>
             </div>
           </div>
           {{/newJSLibrary}}
@@ -83,13 +83,13 @@
           <h2><i class="fa fa-plus-square"></i> New Script</h2>
           <div class="list-group">
             <a href="/about/Userscript-Beginners-HOWTO" class="list-group-item">
-              <h4 class="list-group-item-heading"><i class="fa fa-fw fa-book"></i> UserScript Beginners HOWTO</h4>
+              <h4 class="list-group-item-heading"><span style="color: #fff"><i class="fa fa-fw fa-book"></i> UserScript Beginners HOWTO</span></h4>
               <p class="list-group-item-text">
                 Are you new to {{#newJSLibrary}}library {{/newJSLibrary}}{{^newJSLibrary}}user {{/newJSLibrary}} scripting and thought you would just dive right in without reading anything? Well if you change your mind check out some of our documentation by clicking here. Special thanks go out to all of our collaborators for all their dedication and effort.
               </p>
             </a>
             <a href="{{{newScriptEditorPageUrl}}}" class="list-group-item">
-              <h4 class="list-group-item-heading"><i class="octicon octicon-fw octicon-pencil"></i> Write Script Online</h4>
+              <h4 class="list-group-item-heading"><span style="color: #fff"><i class="octicon octicon-fw octicon-pencil"></i> Write Script Online</span></h4>
               <p class="list-group-item-text">
                 Click here to write a script using the Ace editor <em>(used by GitHub)</em>.
               </p>
@@ -122,11 +122,12 @@
               </p>
             </div>
             <a href="{{{authedUser.userGitHubRepoListPageUrl}}}" class="list-group-item">
-              <h4 class="list-group-item-heading"><i class="octicon octicon-fw octicon-repo-clone"></i> Import Script from GitHub</h4>
+              <h4 class="list-group-item-heading"><span style="color: #fff"><i class="octicon octicon-fw octicon-repo-clone"></i> Import Script from GitHub</span></h4>
               <p class="list-group-item-text">
                 Click here to import a script<em>(s)</em> from a GitHub repository. If Sync Script has already been set up for the selected repository then it should automatically be linked for any scripts imported.
               </p>
             </a>
+			<br />
             <div role="alert" class="alert alert-info">
               <i class="fa fa-fw fa-info-circle"></i> <strong>LIMITS</strong>: The current transfer size limit is set at <span class="label label-default">{{maximumUploadScriptSize}} bytes</span> per script.
             </div>

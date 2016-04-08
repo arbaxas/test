@@ -24,7 +24,7 @@ var categories = [
   {
     slug: 'announcements',
     name: 'Announcements',
-    description: 'UserScripts News (OpenUserJS, GreaseMonkey, etc)',
+    description: 'Site improvements and other news',
     roleReqToPostTopic: 3 // Moderator
   },
   {
@@ -40,7 +40,7 @@ var categories = [
   {
     slug: 'discuss',
     name: 'General Discussion',
-    description: 'Off-topic discussion about anything related to user scripts or OpenUserJS.org'
+    description: 'Off-topic discussion'
   },
   {
     slug: 'issues',

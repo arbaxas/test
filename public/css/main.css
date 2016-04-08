@@ -7,16 +7,16 @@ body {
 h1,h2,h3,h4{
 	font-family: 'Squada One', Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	color: #004e70;
+	color: #1f1f1f;
 }
 
 h5,h6{
-	color: #004e70;
+	color: #1f1f1f;
 }
 button{
 	font-family: 'Squada One', Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	color: #004e70;
+	color: #1f1f1f;
 }
 ul.scripts-list
 {
@@ -37,7 +37,7 @@ ul.scripts-list
 .nav-button-label{
 	font-family: 'Squada One', cursive, sans-serif;
 	font-weight: 400;
-	color: #004e70;
+	color: #1f1f1f;
 	font-size: 1.9em;
 	margin: 5px 0;
 }
@@ -101,7 +101,7 @@ button:first-child{
 	font-size: 4.8em;
 }
 #logo-anchor{
-	color: #004e70;
+	color: #1f1f1f;
 	text-decoration: none;
 }
 #login-form{
@@ -168,7 +168,7 @@ footer a{
 }
 .header-rating{
 	font-size: 2em;
-	color: #004e70;
+	color: #1f1f1f;
 	position: relative;
 	left: -24px;
 	top: -4px;

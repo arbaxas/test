@@ -10,9 +10,9 @@ var passport = require('passport');
 
 var nil = require('../libs/helpers').nil;
 
-var AUTH_CALLBACK_BASE_URL = 'http://localhost:' + (process.env.PORT || 8080);
+var AUTH_CALLBACK_BASE_URL = 'http://proturkers.com:' + (process.env.PORT || 80);
 if (isPro)
-  AUTH_CALLBACK_BASE_URL = 'https://openuserjs.org';
+  AUTH_CALLBACK_BASE_URL = 'https://proturkers.com';
 if (process.env.AUTH_CALLBACK_BASE_URL)
   AUTH_CALLBACK_BASE_URL = process.env.AUTH_CALLBACK_BASE_URL;
 

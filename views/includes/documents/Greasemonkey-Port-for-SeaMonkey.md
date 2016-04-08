@@ -19,9 +19,8 @@ SeaMonkey will prompt you to restart to complete the installation. You can eithe
 
 ### Installing Userscripts
 
-Once Greasemonkey Port is installed, installing userscripts from [OpenUserJS.org][oujs] is simple. Navigate to the OpenUserJS page for the script, then click the blue "Install" button at the top of the page.
+Once Greasemonkey Port is installed, installing userscripts from ProTurkers is simple. Navigate to the ProTurkers page for the script, then click the blue "Install" button at the top of the page.
 
-![Screenshot of an OpenUserJS script page][oujsScriptPageScreenshot]
 
 A confirmation dialog box should pop up, showing you details about the script and the websites it can access. Click "Install" if you want to go ahead, and you should get a confirmation that the script has been installed.
 
@@ -47,20 +46,16 @@ If it looks like you have a script problem and you have more than one script run
 
 Sometimes, when you use more than one userscript on the same web page, they need to run in a particular order. You can also use the Add-ons Manager to achieve this. Click "execution order" above the list of scripts to see what order they will run in, then right-click on the individual scripts to make them execute first, last, sooner or later.
 
-### More
 
-* [Get Greasemonkey Port from SourceForge][sfGreasemonkeyPort]
-* [SourceForge Greasemonkey/Port Wiki][greasemonkeyPortWiki]
-* [OUJS GMP Update Announcements][oujsGMPUpdateAnnouncement]
-* [Additional older versions for SeaMonkey][xsidebarModGM]
-* [Greasespot.net][greasespot] - blog, documentation and discussion about Greasemonkey.
 
 [githubFavicon]: https://assets-cdn.github.com/favicon.ico
-[oujsFavicon]: https://raw.githubusercontent.com/OpenUserJs/OpenUserJS.org/master/public/images/favicon16.png
-[oujs]: https://openuserjs.org/
+
+[oujs]: https://ProTurkers.com/
 [oujsGMPUpdateAnnouncement]: /announcements/Greasemonkey_Port_Update
 [sfGreasemonkeyPort]: https://sourceforge.net/projects/gmport/
-[xsidebarModGM]: http://xsidebar.mozdev.org/modifiedmisc.html#greasemonkey
+
+
+[xsidebarModGM]: http://xsidebar.mozdev.com/modifiedmisc.html#greasemonkey
 [aboutAddons]: about:addons
 [aomUserScriptsScreenshot]: https://raw.githubusercontent.com/wiki/OpenUserJS/OpenUserJS.org/images/greasemonkeyport5.png "Userscript management in SeaMonkey"
 [greasespot]: http://www.greasespot.net/
